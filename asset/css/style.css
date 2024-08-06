@@ -1,0 +1,308 @@
+*{
+    padding: 0; margin: 0%; box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(247, 238, 238);
+}
+header{
+    background-color: rgb(6, 24, 99);
+    width: 100%;
+}
+
+
+.navbar-top{
+    max-width: 1400px;
+    height: 95px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+} 
+.navbar-top i{
+    font-size: 50px;
+    color: orangered;
+}
+.navbar-top i span{
+    font-size: 30px;
+}
+
+.navbar-top-right input{
+    width: 80%;
+    height: 40px;
+    border-radius: 30px;
+    padding: 14px;
+    font-size: 16px;
+    text-transform: capitalize;
+    
+}
+.navbar-top-right .fa-solid{
+    font-size: 18px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 50%;
+    align-self: center;
+    
+   
+}
+.container{
+    width: 1400px;
+    display: flex;
+    gap: 26px;
+    margin: auto;
+}
+.container-left{
+    width: 250px;    /* background-color: teal; */
+    /* align-content: start;
+    gap: 1rem; */
+}
+.container-right{
+    width: 1150px;
+    background-color: white;
+
+}
+.container .container-left .left-item-1{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    margin-top: 16px;
+    background-color: white;
+}
+.container-left .left-item-1 .nav-left{
+    width:100%;
+    height: 50px;
+    padding: 10px 20px;
+    box-shadow: rgba(128, 128, 128, 0.1) 0px 1px 0px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.container-left .left-item-1 .nav-left:hover{
+
+   background-color: orangered;
+  
+}
+.active{
+    background-color: orangered;
+}
+.container-left .left-item-1 .nav-left i,a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-right: 4px;
+    color: black;
+}
+.container-left .left-item-1 .nav-left a:hover{
+    color: white;
+}
+.container-left .left-item-1 .nav-left i:hover{
+    color: white;
+}
+
+.left-item-1 .nav-left span{
+    float: right;
+    font-size: 20px;
+    margin-right: 4px;
+    font-weight: bold;
+    color: orangered;
+}
+.left-item-1 .nav-left-img{
+    width: 100%;
+    padding: 10px 0;
+}
+.left-item-1 .nav-left-img img{
+    width: 100%;
+}
+.left-item-1 span{
+   color: orangered;
+    font-size: 17px;
+}
+.nav-left-text{
+    width: 100%;
+    font-size: 19px;
+    padding: 10px 15px;
+    line-height: 25px;
+}
+
+.nav-left-text .price p{
+    display: inline;
+}
+.price #del-price{
+    float: right;
+}
+.left-item-1 .nav-left-2{
+    padding: 10px;
+    box-shadow: rgba(128, 128, 128, 0.1) 0px 1px 0px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.left-item-1 .nav-left-2 .nav-left-2-img{
+    width: 50%;
+    height: 140px;
+    padding: 10px 0px;
+}
+.nav-left-2-img img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    
+}
+.left-item-1 .nav-left-2 .nav-left-2-text{
+    width: 50%;
+    height: 130px;
+    padding: 10px 0;
+    line-height: 25px;
+
+}
+
+.left-item-1 .nav-left-2 .nav-left-2-text p{
+    font-size: 15px;
+}
+.left-item-1 .nav-left-2 .nav-left-2-text a{
+    background-color: orangered;
+    color: white;
+    font-size: 15px;
+    border-radius:12px;
+    padding: 5px 10px;
+}
+.left-item-1 .nav-left-2 .nav-left-2-text a:hover{
+    opacity: 0.8;
+}
+.container-right{
+    margin-top: 16px;
+}
+
+.container-right .right-item-1{
+   
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 450px;
+    background-image: url(../img/DSC09361.jpg);
+    background-size: cover;
+}
+
+.container-right .right-item-1 .right-item-text {
+    width: 400px;
+    color: white;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.container-right .right-item-1 .right-item-text h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.container-right .right-item-1 .right-item-text h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.container-right .right-item-1 .right-item-text .shop-btn {
+    text-transform: uppercase;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 13px 25px;
+    background-color: orangered;
+    border-radius: 50px;
+}
+
+.container-right .right-item-1 .right-item-banner img{
+    width: 400px;
+}
+.container-right .right-item-2{
+    padding: 10px;
+    width: 100%;
+}
+/* .container-right .right-item-2{
+} */
+.container-right .right-item-2 .text-heading{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 18px;
+    border-bottom: 1px solid silver;
+    padding: 20px;
+
+}
+.right-item-2 .row{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.col-3{
+    border: 1px solid silver;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 12px;
+}
+.right-item-2 .col-3 .card{
+    width: 217px;
+    padding: 15px;
+    
+}
+.col-3 .card .card-header{
+    width: 100%;
+    height: 215px;
+}
+.col-3 .card .card-header img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.col-3 .card-body{
+    margin-bottom: 20px;
+}
+.col-3 .card .card-body .detail{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.buy-btn{
+    padding: 6px 62px;
+    background-color: orangered;
+    border-radius: 12px;
+    font-size: 15px;
+    color: white;
+}
+.container .container-right .right-item-3{
+    height: 300px;
+    background-image: url(../img/l-intro-1682563315.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 10px;
+    padding: 10px;
+}
+.right-item-3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-item-3 .row{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right-item-3 h2{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.right-item-3 .contact-btn{
+    padding: 14px 30px;
+    background-color: orangered;
+    border-radius: 12px;
+    font-size: 20px;
+    color: white;
+}
+.right-item-3 .contact-btn:hover{
+    opacity: 0.7;
+}
+footer{
+    width: 100%;
+    height: 230px;
+    background-color: rgb(6, 24, 99);
+    margin-top: 20px;
+}
